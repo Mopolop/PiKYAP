@@ -99,7 +99,7 @@ def main():
         # Если на компьютере установлен браузер
         if len(c_brws) > 0:
             # Памяти, занимаемые браузерами
-            с_memories = [user for _, user, _ in c_brws]
+            с_memories = [memory for _, memory, _ in c_brws]
             # Суммарная память, занимаемая всеми браузерами
             c_memories_sum = sum(с_memories)
             res_12_unsorted.append((c.name, c_memories_sum))
