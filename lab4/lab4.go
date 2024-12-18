@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	err := writeToFile("output.txt", "прога привет")
+	err := writeToFile("output.txt", "ПиКЯП 3 семестр Князев")
 	if err != nil {
 		fmt.Printf("Ошибка при записи в файл: %v\n", err)
 		return
